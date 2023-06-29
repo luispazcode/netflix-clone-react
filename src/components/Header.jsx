@@ -10,7 +10,7 @@ export const Header = () => {
 					<SelectLanguage />
 					<a
 						href='#'
-						className='bg-[#e50914] border border-[#e50914] px-3 py-1 w-auto min-h-[1rem] font-semibold rounded-sm'
+						className='bg-primary border border-primary px-3 py-1 w-auto min-h-[1rem] font-semibold rounded-sm'
 					>
 						Iniciar sesión
 					</a>

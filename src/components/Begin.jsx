@@ -11,7 +11,7 @@ export const Begin = () => {
 					className='bg-transparent border rounded-sm px-2 py-3 w-full'
 					placeholder='Email'
 				/>
-				<button className='text-2xl font-medium bg-[#e50914] rounded-sm mx-auto px-6 py-3'>
+				<button className='text-2xl font-medium bg-primary rounded-sm mx-auto px-6 py-3'>
 					Comenzar
 				</button>
 			</div>
