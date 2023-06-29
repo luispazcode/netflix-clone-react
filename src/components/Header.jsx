@@ -6,7 +6,7 @@ export const Header = () => {
 		<header>
 			<div className='flex justify-between'>
 				<Logo />
-				<nav className='text-white flex gap-4 items-center text-sm'>
+				<nav className='text-white hidden md:flex gap-4 items-center text-sm'>
 					<SelectLanguage />
 					<a
 						href='#'

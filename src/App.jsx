@@ -2,6 +2,7 @@ import { useState } from "react";
 import { FrontPage } from "./components/FrontPage";
 import { Section } from "./components/Section";
 import { Faq } from "./components/Faq";
+import { Footer } from "./components/Footer";
 
 export const App = () => {
 	const [sections, setSections] = useState([
@@ -50,6 +51,7 @@ export const App = () => {
 			))}
 
 			<Faq />
+			<Footer />
 		</>
 	);
 };
